@@ -1,0 +1,70 @@
+/* #03989E */
+
+body{
+    background-image: url("../images/backgroundmain.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.btn-primary{
+    background-color:#03989E ;
+    border-color: #03989E;
+}
+
+.text-primary, .list-inline > .list-inline-item a {
+    color: #03989E !important;
+}
+
+.btn-outline-primary{
+    border-color: #03989E;color: #03989E;
+}
+
+.btn-primary:hover, .btn-outline-primary:hover{
+    background-color:#016468 !important;
+    border-color: #016468 !important;
+}
+
+.bg-primary{
+    background-color:#1db4b9 !important;
+}
+
+.bg-info{
+    background-color:#38a7aa !important;
+}
+
+.bg-success{
+    background-color:#65c0c3 !important;
+}
+
+.bg-warning{
+    background-color: #c8ad13 !important;
+}
+
+.bg-dark{
+    background-color: #23282E !important;
+}
+
+.custom-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+.carousel .carousel-item > img{
+    max-height: 700px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.list-group-item.active{
+    background-color: unset;
+    border-color: unset;
+    color: #03989E;
+    font-weight: bold;
+}
+.list-group-item{
+    padding-left: unset;
+}
+
